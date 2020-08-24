@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\LoginForms\**" />
+    <Content Remove="Views\LoginForms\**" />
+    <EmbeddedResource Remove="Views\LoginForms\**" />
+    <None Remove="Views\LoginForms\**" />
+  </ItemGroup>
+
+</Project>
